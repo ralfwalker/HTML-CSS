@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+
+        header {
+            width: auto;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 4px 4px 3px 0px #050505bf;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            background-color: rgb(189, 0, 173);
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 30px;
+        }
+
+        article {
+            background-color: lightgray;
+        }
+
+        article > aside {
+            background-color: rgb(165, 165, 165);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        footer > p {
+            margin: 0;
+        }
+
+        #circle {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: #051e33;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MY WEBSITE</h1>
+        <nav>
+            <a href="http://">HOME</a>
+            <a href="http://">NEWS</a>
+            <a href="http://">ABOUT US</a>
+            <a href="http://">CONTACT</a>
+            <a href="http://">OTHER</a>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <p><strong>SPORTS | DIPLOMACY | TECNOLOGY</strong></p>
+        </section>
+        <section id="news">
+            <article>
+                <h2>NEWS ABOUT BRAZIL</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, expedita reiciendis eos aperiam qui totam, facere repellendus, dolores tempore voluptate itaque laboriosam mollitia minus similique voluptatum nam. Soluta, iusto similique! Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis labore illum quasi porro molestias cumque voluptates itaque sapiente nulla accusamus. Explicabo optio a libero vitae error in harum, minima laudantium?</p>
+                <aside>
+                    <p>ARTICLE DEVELOPED BY RALPH WALKER</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>DEVELOPED BY COURSE IN VIDEO</p>
+    </footer>
+    <div id="circle"></div>
+</body>
+</html>

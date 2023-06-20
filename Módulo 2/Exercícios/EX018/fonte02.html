@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Shoes';
+            src: url(fonts/tackyshoes.otf) format(opentype);
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Royal';
+            src: url(fonts/royalwedding.otf) format(opentype), 
+            url(fonts/royalwedding.ttf) format(truetype);
+            font-weight: normal;
+            font-style: normal;
+        }
+
+            /*
+                Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-aat (Apple Advanced Typography)
+                - svg
+            */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            padding-left: 200px;
+            padding-right: 200px;
+        }
+
+        h1 {
+            font-family: 'Shoes','Times New Roman', Times, serif;
+            font-size: 6em;
+            font-weight: normal;
+            text-align: center;
+        }
+
+        p {
+            font-family: 'Royal', Arial, Helvetica, sans-serif;
+            font-size: 5em;
+            font-weight: normal;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quia quidem voluptatibus aliquid, fugiat, ex illo maxime rerum cum culpa sint dolorem, perferendis recusandae porro deleniti ratione. Laborum, culpa natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus illo veritatis amet sequi consectetur saepe eos repellendus ea et odit voluptatibus maiores enim ducimus cupiditate nisi, id laborum? Magnam, assumenda? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa est dolore cumque, consectetur tempore voluptatibus blanditiis. Asperiores eaque ullam distinctio nam, quae facilis explicabo, aperiam quibusdam excepturi eligendi necessitatibus quaerat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat excepturi unde nisi illo eum eaque, recusandae ea, praesentium exercitationem maxime vel ab? Odit ullam unde sint quaerat quia nostrum impedit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat tenetur doloremque nesciunt aut enim nisi repellat ad recusandae natus impedit, eveniet nihil deserunt, expedita qui incidunt dignissimos dolor perspiciatis ullam!</p>
+    
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* 
+            Medidas Absolutas:
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas:
+            em, ex, rem, vw, vh, %
+            16 px geralmente = 1em
+            */
+            font-size: 1em;
+            font-weight: bolder;
+            font-style: italic;
+            text-decoration: underline;
+            /* lighter normal bold bolder 
+            OBS: bolder é bem mais forte que bold
+            */
+        }
+
+        h1 {
+            /*
+            
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            
+            shorthand font
+            
+            OBS: da para simplificar o que foi digitado acima se você souber a ordem que está digitado abaixo:
+
+            - font-style -> font-weight -> font-size -> font-family
+
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem deleniti molestiae, modi obcaecati debitis praesentium itaque temporibus nesciunt, ad consectetur enim minus, harum delectus ratione explicabo? Laborum libero vero facere!</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque itaque sint excepturi repudiandae quae consectetur rerum, omnis recusandae id, maxime velit provident mollitia obcaecati error harum quas tenetur incidunt iste?</p>
+</body>
+</html>
