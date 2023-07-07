@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas com Células Agrupadas 3</title>
+    <style>
+        table {
+            border-collapse: collapse; /* AGRUPA AS CÉLULAS*/
+            width: 600px;
+            height: 200px;
+        }
+        
+        td, th {
+            border: 2px solid rgba(255, 255, 255, 0.461);
+            padding: 10px;
+            text-align: center;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            text-shadow: 1px 1px rgb(165, 87, 216);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <caption>
+        <h1 style="font-family: Arial, Helvetica, sans-serif; padding-left: 10%; margin-bottom: 0%; color: rgb(171, 109, 9); text-shadow: 2px 2px black; border: 2px solid rgba(255, 255, 255, 0.461); width: 22.7%; background-color: rgb(115, 169, 60);">Filmes Favoritos</h1>
+    </caption>
+    <table>
+        <thead>
+            <tr>
+                <th style="background-color: rgb(115, 169, 60);"><strong>Grupos</strong></td>
+                <th style="background-color: rgb(115, 169, 60);"><strong>Nomes</strong></td>
+                <th style="background-color: rgb(115, 169, 60);" colspan="3"><strong>Filmes</strong></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th style="background-color: rgb(205, 8, 159)" rowspan="3"><strong>Mulheres</strong></td>
+                <td>Ana Maria Santos</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>Beatriz Souza</td>
+                <td>Hulk</td>
+                <td>Inception</td>
+                <td>Batman</td>
+            </tr>
+            <tr>
+                <td>Cláudia Melo</td>
+                <td>Oblivion</td>
+                <td>Matrix</td>
+                <td>Big Hero</td>
+            </tr>
+            <tr>
+                <th style="background-color: rgb(4, 15, 163);" rowspan="3"><strong>Homens</strong></td>
+                <td>Bruno Mendonça</td>
+                <td>Intocáveis</td>
+                <td>Amnésia</td>
+                <td>Gladiador</td>
+            </tr>
+            <tr>
+                <td>Daniel Lourenço</td>
+                <td>Wall-E</td>
+                <td>Oldboy</td>
+                <td>Dangal</td>
+            </tr>
+            <tr>
+                <td>Fabiano Mota</td>
+                <td>Star Wars 5</td>
+                <td>Taxi Driver</td>
+                <td>Toy Story</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
